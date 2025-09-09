@@ -1,0 +1,6 @@
+/* Paradigm Shift main.css placeholder. Replace with actual template CSS for full styling. */
+body { font-family: 'Source Sans Pro', Arial, sans-serif; background: #222; color: #fff; margin: 0; }
+#wrapper { max-width: 900px; margin: 0 auto; padding: 2em; background: #292929; border-radius: 8px; }
+header, footer { text-align: center; }
+section#main { margin: 2em 0; }
+@media (max-width: 600px) { #wrapper { padding: 1em; } }
