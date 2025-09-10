@@ -78,6 +78,10 @@
 			color: inherit;
 			text-decoration: none;
 		}
+
+		.fg-bold-alt {
+			color: _palette(fg-bold-alt);
+		}
 	}
 
 	h1 {
