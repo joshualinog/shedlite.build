@@ -5,7 +5,7 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800');
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Rubik+Dirt|Rubik+Vinyl|Rubik:ital,wght@0,300..900;1,300..900');
 
 /*
 	Paradigm Shift by HTML5 UP
@@ -50,3 +50,44 @@
 // Layout.
 
 	@import 'layout/wrapper';
+
+	.product-name {
+		font-family: _font(family-heading-vinyl);
+		font-weight: _font(weight-heading-xxbold)!important;
+		letter-spacing: _font(kerning-heading-alt);
+		font-size: 3.5rem;
+		margin: 0;
+		line-height: 1;
+		text-transform: uppercase;
+		span{
+			font-family: _font(family-heading-alt);
+			font-weight: _font(weight-xxbold);
+			letter-spacing: _font(kerning-heading-alt);
+			color: _palette(fg-bold-alt);
+			text-transform: capitalize;
+		}
+	}
+	.intro{
+		text-transform: uppercase;
+		font-size: .6rem;
+		letter-spacing: .1rem;
+	}
+	.company-name {
+		font-family: _font(family-heading-alt);
+		font-weight: _font(weight-heading-xxbold)!important;
+		letter-spacing: _font(kerning-heading-alt);
+		font-size: 1.5rem;
+		margin: 0;
+		line-height: 1;
+		text-transform: capitalize;
+		color:_palette(princetonOrange);
+		span{
+			font-family: _font(family-heading);
+			font-weight: _font(weight-xxbold);
+			letter-spacing: .05rem;
+			color:_palette(princetonOrange);
+			text-transform: uppercase;
+			display: block;
+			line-height: .5;
+		}
+	}

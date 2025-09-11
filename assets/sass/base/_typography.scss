@@ -6,6 +6,15 @@
 
 /* Typography */
 
+	// Color utility classes
+	.text-xanthous { color: $xanthous; }
+	.text-princetonOrange { color: $princetonOrange; }
+	.text-myrtleGreen { color: $myrtleGreen; }
+	.text-emerald { color: $emerald; }
+	.text-vanilla { color: $vanilla; }
+	.text-mindaro { color: $mindaro; }
+	.text-ivory { color: $ivory; }
+
 	html {
 		font-size: 18pt;
 
